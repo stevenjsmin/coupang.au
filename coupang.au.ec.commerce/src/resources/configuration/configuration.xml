@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- COMMON CONFIGURATION -->
+    <!-- * NOTE: You must define only common configuration here -->
+
+    <!-- System properties load -->
+    <env />
+
+    <!-- Exception URLs for access checking -->
+    <system-config>
+    	<release-version>1.0.0</release-version>
+        <acess-check-except-url>/common/auth/welcome.pang, /common/auth/login.pang, /common/auth/loginForm.pang, /common/auth/logout.pang, /common/EmailSendFrom.pang, /common/auth/Welcome.pang, /common/updateNmiGMapCoordinate.pang, /business/batchExecute.pang, /common/noticemanager/NoticeListForPublicTop5.pang, /common/postcode/suburbCmbx.pang, /common/getNumberOfCartItems.pang </acess-check-except-url>
+
+        <login-fail-allow-cnt>5</login-fail-allow-cnt>
+        <password-change-period-days>80</password-change-period-days>
+        <password-minimum-length>6</password-minimum-length>
+        
+    </system-config>
+
+	<!-- 시스템에서 데이터를 저장할 최상위 디렉토리를 지정한다. -->
+	<data-directory>
+		<dir type="local">/Users/Steven/Documents/Workspaces/eclipse-workspace1/coupang.au.ec.web/app-data/</dir>
+		<dir type="dev">/local/app-data/</dir>
+		<dir type="test">/local/app-data/</dir>
+		<dir type="training">/local/app-data/</dir>
+		<dir type="prod">/local/app-data/</dir>
+	</data-directory>
+
+</config>

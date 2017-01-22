@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<settings>
+		<setting name="cacheEnabled" value="true" />
+		<setting name="lazyLoadingEnabled" value="true" />
+		<setting name="multipleResultSetsEnabled" value="true" />
+		<setting name="useColumnLabel" value="true" />
+		<setting name="defaultStatementTimeout" value="25000" />
+	</settings>
+
+	<typeAliases>
+		<typeAlias type="coupang.framework.code.Code" alias="Code" />
+		<typeAlias type="coupang.framework.system.configuration.SystemConfig" alias="SystemConfig" />
+		<typeAlias type="coupang.framework.postcode.Postcode" alias="Postcode" />
+		<typeAlias type="coupang.framework.user.User" alias="User" />
+		<typeAlias type="coupang.framework.role.Role" alias="Role" />
+		<typeAlias type="coupang.framework.attachement.AttachmentFile" alias="AttachmentFile" />
+		
+		<typeAlias type="coupang.shopping.credit.CreditInfo" alias="CreditInfo" />
+		<typeAlias type="coupang.shopping.contract.ContractInfo" alias="ContractInfo" />
+		<typeAlias type="coupang.shopping.contract.ContractFile" alias="ContractFile" />
+		
+		<typeAlias type="coupang.shopping.product.Category" alias="Category" />
+		<typeAlias type="coupang.shopping.product.Product" alias="Product" />
+		<typeAlias type="coupang.shopping.product.ProductImage" alias="ProductImage" />
+		<typeAlias type="coupang.shopping.product.ProductOption" alias="ProductOption" />
+		<typeAlias type="coupang.shopping.product.ProductOptionValue" alias="ProductOptionValue" />
+		
+		<typeAlias type="coupang.shopping.checkbeforebuy.CheckBeforeBuy" alias="CheckBeforeBuy" />
+		
+		<typeAlias type="coupang.shopping.delivery.DeliveryCalendar" alias="DeliveryCalendar" />
+		<typeAlias type="coupang.shopping.payment.PaymentMethod" alias="PaymentMethod" />
+		
+		<typeAlias type="coupang.shopping.order.ShoppingCart" alias="ShoppingCart" />
+		<typeAlias type="coupang.shopping.order.OrderProductOption" alias="OrderProductOption" />
+		
+		<typeAlias type="coupang.shopping.shop.ShopTemplate" alias="ShopTemplate" />
+		<typeAlias type="coupang.shopping.shop.ShopTemplateSection" alias="ShopTemplateSection" />
+		
+		<typeAlias type="coupang.framework.user.UserRole" alias="UserRole" />
+		<typeAlias type="coupang.framework.user.SystemUseProfile" alias="SystemUseProfile" />
+		<typeAlias type="coupang.framework.document.DocumentTemplate" alias="DocumentTemplate" />
+		<typeAlias type="coupang.framework.email.EmailDTO" alias="EmailDTO" />
+		<typeAlias type="coupang.framework.email.EmailAttachedFileDTO" alias="EmailAttachedFileDTO" />
+		<typeAlias type="coupang.framework.menu.Menu" alias="Menu" />
+		<typeAlias type="coupang.framework.notice.NoticeDiscuss" alias="NoticeDiscuss" />
+		<typeAlias type="coupang.framework.workdays.WorkDays" alias="WorkDays" />
+		
+	</typeAliases>
+
+</configuration> 

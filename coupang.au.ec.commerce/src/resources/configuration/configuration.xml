@@ -20,7 +20,7 @@
 
 	<!-- 시스템에서 데이터를 저장할 최상위 디렉토리를 지정한다. -->
 	<data-directory>
-		<dir type="local">/Users/Steven/Documents/Workspaces/eclipse-workspace1/coupang.au.ec.web/app-data/</dir>
+		<dir type="local">/Users/Steven/Documents/Workspaces/GIT-COUPANG.AU/coupang.au.ec.web/app-data/</dir>
 		<dir type="dev">/local/app-data/</dir>
 		<dir type="test">/local/app-data/</dir>
 		<dir type="training">/local/app-data/</dir>
